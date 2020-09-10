@@ -41,8 +41,6 @@ namespace md_to_latex
     }
 
     public class converter {
-
-        static int line_counter = 0;
         public converter(StreamReader file){
             //On sais ici que le fichier existe et qu'il est dans le bon format
 
@@ -76,7 +74,6 @@ namespace md_to_latex
                         template[count] = _line;
                         _line = file.ReadLine();
                         count ++;
-                        line_counter ++;
                     }
                     catch (IndexOutOfRangeException){
                         error_exeption.warning(String.Format("Le template fournis a plus de paramètre que le maximum prévu par le programme, vérifier votre template ou mettez a jours cette application. Seul les {0} premiers paramètres seronts pris en compte",template.Length));
