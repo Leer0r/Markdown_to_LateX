@@ -7,12 +7,13 @@ Template
 
 ## Idée de base 
 
-    L'idée est de combiner la rapiditée d'éctirure du markdown et la lisibilitée/propreté du LateX
+L'idée est de combiner la rapidité d'écriture du markdown et la lisibilité / propreté du LaTeX.
 
 ## Piste
 
-    Le markedown étant un language simple, des regex seront possible pour un bonne partie des cas
-    Penser à créer un entete en markdown pour indiquer au compilateur les informations complémentaires (nom, classe de document, Titre) 
+Le markedown étant un language simple, des regex seront possibles pour un bonne partie des cas.
+
+Pensez à créer un entête en markdown pour indiquer au compilateur les informations complémentaires (nom, classe de document, Titre, ...).
 
 ## Conversion markdown vers LateX
 
@@ -25,10 +26,10 @@ Markdown :
 ## h2
 .
 .
-.
+###### h6
 ```
 
-LateX : 
+LaTeX : 
 
 ```latex
 \part{titre}
@@ -54,7 +55,7 @@ __underscores__
 ~~Scratch this.~~ (texte barré)
 ```
 
-LateX
+LaTeX
 ```latex
 \textit{asterisks}
 \textbf{blabla}
@@ -70,7 +71,7 @@ Pour le texte barré :
 \st{barré}
 ```
 
-[voir site ](https://tutoriels-latex.blogspot.com/2013/05/comment-ecrire-un-texte-barre-dans-latex.html)
+[voir site](https://tutoriels-latex.blogspot.com/2013/05/comment-ecrire-un-texte-barre-dans-latex.html)
 
 ### Liste
 
@@ -88,7 +89,7 @@ En markdown :
    1. bla
 ```
 
-En latex : 
+En LaTeX : 
 
 ```latex
 \begin{itemize}
@@ -106,3 +107,13 @@ En latex :
     \begin{enumerate}
         \item bla
 ```
+
+
+## Authors
+
+[Leer0r](https://github.com/Leer0r) and [NoxFly](https://github.com/NoxFly).
+
+
+## LICENSE
+
+See MIT License.
