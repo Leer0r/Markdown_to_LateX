@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SVoXBpYRfdwRPfynPOoRJBKWIy3R1glKNMsepgmzGk5CQmeWes6cwQyntIcLN9+5uAAEaT8V0+B/3vvedFEf6g==",
+  "dgSpecHash": "9jWeKS8zaZENmklER9WySHUkMOSJYBlcsY0asEYQ9pWiKCzKgu6Y5VbuLoWO8lP2hvxpYlzBMpSvo0GHP6hPzA==",
   "success": true,
-  "projectFilePath": "C:\\localproject\\C#\\md_to_latex\\md_to_latex.csproj",
+  "projectFilePath": "D:\\code\\C#\\Markdown_to_LateX\\md_to_latex.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
