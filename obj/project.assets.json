@@ -8,12 +8,17 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\avedd\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+=======
+    "C:\\Users\\doria\\.nuget\\packages\\": {}
+>>>>>>> d9937debf49a51453b3adadcfa273799f65a457a
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "d:\\code\\C#\\Markdown_to_LateX\\md_to_latex.csproj",
       "projectName": "md_to_latex",
       "projectPath": "d:\\code\\C#\\Markdown_to_LateX\\md_to_latex.csproj",
@@ -27,6 +32,16 @@
         "C:\\Users\\avedd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+      "projectUniqueName": "C:\\codes\\C#\\md_to_latex_converter\\md_to_latex.csproj",
+      "projectName": "md_to_latex",
+      "projectPath": "C:\\codes\\C#\\md_to_latex_converter\\md_to_latex.csproj",
+      "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
+      "outputPath": "C:\\codes\\C#\\md_to_latex_converter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\doria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> d9937debf49a51453b3adadcfa273799f65a457a
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -63,7 +78,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+>>>>>>> d9937debf49a51453b3adadcfa273799f65a457a
       }
     }
   }
