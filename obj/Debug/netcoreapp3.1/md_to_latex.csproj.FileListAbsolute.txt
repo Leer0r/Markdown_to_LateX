@@ -11,3 +11,16 @@ C:\localproject\C#\md_to_latex\obj\Debug\netcoreapp3.1\md_to_latex.csproj.CoreCo
 C:\localproject\C#\md_to_latex\obj\Debug\netcoreapp3.1\md_to_latex.dll
 C:\localproject\C#\md_to_latex\obj\Debug\netcoreapp3.1\md_to_latex.pdb
 C:\localproject\C#\md_to_latex\obj\Debug\netcoreapp3.1\md_to_latex.genruntimeconfig.cache
+C:\codes\C#\md_to_latex_converter\bin\Debug\netcoreapp3.1\md_to_latex.exe
+C:\codes\C#\md_to_latex_converter\bin\Debug\netcoreapp3.1\md_to_latex.deps.json
+C:\codes\C#\md_to_latex_converter\bin\Debug\netcoreapp3.1\md_to_latex.runtimeconfig.json
+C:\codes\C#\md_to_latex_converter\bin\Debug\netcoreapp3.1\md_to_latex.runtimeconfig.dev.json
+C:\codes\C#\md_to_latex_converter\bin\Debug\netcoreapp3.1\md_to_latex.dll
+C:\codes\C#\md_to_latex_converter\bin\Debug\netcoreapp3.1\md_to_latex.pdb
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.csprojAssemblyReference.cache
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.AssemblyInfoInputs.cache
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.AssemblyInfo.cs
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.csproj.CoreCompileInputs.cache
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.dll
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.pdb
+C:\codes\C#\md_to_latex_converter\obj\Debug\netcoreapp3.1\md_to_latex.genruntimeconfig.cache
