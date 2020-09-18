@@ -3,6 +3,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 
 namespace md_to_latex {
+
     class Program {
         static void Main (string[] args) {
             if (args.Length == 0) {
@@ -40,34 +41,34 @@ namespace md_to_latex {
             //On sais ici que le fichier existe et qu'il est dans le bon format
 
             bool is_template;
-            string[] template = get_template (file, out is_template);
-            print_template (template);
-            if (is_template) { }
+            template template = get_template (file, out is_template);
+            if (is_template) { 
+                bool good_compiling = compile_template(template);
+
+            }
         }
 
-        static string[] get_template (StreamReader file, out bool is_template) {
+        template get_template (StreamReader file, out bool is_template) {
             string _line = file.ReadLine ();
 
             Regex rx = new Regex (@"^<!---template$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             MatchCollection matches = rx.Matches (_line);
 
-            string[] template = new string[nb_arg_template.nb];
+            template template = new template();
 
             if (matches.Count != 0) {
                 _line = file.ReadLine ();
-                int count = 0;
+                is_template = true;
                 while (!match_regex (@"-->$", _line)) {
                     try {
-                        template[count] = _line;
+                        template.content[template.Length] = _line;
                         _line = file.ReadLine ();
-                        count++;
+                        template.Length++;
                     } catch (IndexOutOfRangeException) {
                         error_exeption.warning (String.Format ("Le template fournis a plus de paramètre que le maximum prévu par le programme, vérifier votre template ou mettez a jours cette application. Seul les {0} premiers paramètres seronts pris en compte", template.Length));
-                        is_template = false;
                         break;
                     }
                 }
-                is_template = true;
 
             } else {
                 is_template = false;
@@ -76,9 +77,9 @@ namespace md_to_latex {
             return template;
         }
 
-        static bool compile_template (string[] template) {
-            for (int i = 0; i < template.Length; i++) {
-
+        static bool compile_template (template template) {
+            foreach(string i in template.content){
+                Console.WriteLine(i);
             }
             return true;
         }
@@ -92,12 +93,12 @@ namespace md_to_latex {
             return true;
         }
 
-        static void print_template (string[] template) {
+        static void print_template (template template) {
             for (int i = 0; i < template.Length; i++) {
-                if (template[i] == null) {
+                if (template.content[i] == null) {
                     break;
                 }
-                Console.WriteLine (template[i]);
+                Console.WriteLine (template.content[i]);
             }
         }
     }
@@ -124,5 +125,10 @@ namespace md_to_latex {
             get => nb_args;
             private set { }
         }
+    }
+
+    class template {
+        public string[] content = new string[nb_arg_template.nb];
+        public int Length = 0;
     }
 }
