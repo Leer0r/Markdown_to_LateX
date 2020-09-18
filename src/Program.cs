@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
@@ -36,13 +37,25 @@ namespace md_to_latex {
     }
 
     public class converter {
+
+        public Dictionary<string, string[]> template_instruction;
+
+        void get_template_instruction (out Dictionary<string, string[]> template_instruction) {
+            template_instruction = new Dictionary<string, string[]> ();
+            template_instruction["author"] = new string[] { "any" };
+            template_instruction["title"] = new string[] { "any" };
+            template_instruction["documentclass"] = new string[] { "article", "report", "book", "slides" };
+            template_instruction["tableofcontents"] = new string[] { "oui", "non" };
+        }
         public converter (StreamReader file) {
             //On sais ici que le fichier existe et qu'il est dans le bon format
 
             bool is_template;
             string[] template = get_template (file, out is_template);
             print_template (template);
-            if (is_template) { }
+            if (is_template) {
+                bool sucess = compile_template (template);
+            }
         }
 
         static string[] get_template (StreamReader file, out bool is_template) {

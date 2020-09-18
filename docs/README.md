@@ -1,8 +1,3 @@
-<!---
-Template
-
--->
-
 # Markdown to LateX converter
 
 ## Idée de base
@@ -31,7 +26,7 @@ Les instructions sont pour l'insant au nombre de 4, affiché sous la forme : ins
 
 - auteur(s) (nom de l'utilisateur courant) (\*)
 - Titre (nom du document passé en paramètre) (\*)
-- classe du document (article) (report,book,slodes)
+- classe du document (article) (report,book,slides)
 - Table des matières (non) (oui,non)
   - voir [Les classes latex](https://fr.wikibooks.org/wiki/LaTeX/Les_classes) pour plus d'informations
 
@@ -52,6 +47,7 @@ Markdown :
 LateX :
 
 ```latex
+
 \part{titre}
 \chapter{titre}
 .

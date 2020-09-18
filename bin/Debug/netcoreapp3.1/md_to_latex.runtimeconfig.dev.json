@@ -1,14 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< HEAD
       "C:\\Users\\avedd\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\avedd\\.nuget\\packages",
       "C:\\Microsoft\\Xamarin\\NuGet"
-=======
-      "C:\\Users\\doria\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\doria\\.nuget\\packages"
->>>>>>> d9937debf49a51453b3adadcfa273799f65a457a
     ]
   }
 }
