@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "d:\\code\\C#\\Markdown_to_LateX\\md_to_latex.csproj": {}
   },
   "projects": {
@@ -12,20 +13,36 @@
         "projectPath": "d:\\code\\C#\\Markdown_to_LateX\\md_to_latex.csproj",
         "packagesPath": "C:\\Users\\avedd\\.nuget\\packages\\",
         "outputPath": "d:\\code\\C#\\Markdown_to_LateX\\obj\\",
+=======
+    "C:\\localproject\\C#\\md_to_latex\\md_to_latex.csproj": {}
+  },
+  "projects": {
+    "C:\\localproject\\C#\\md_to_latex\\md_to_latex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\localproject\\C#\\md_to_latex\\md_to_latex.csproj",
+        "projectName": "md_to_latex",
+        "projectPath": "C:\\localproject\\C#\\md_to_latex\\md_to_latex.csproj",
+        "packagesPath": "C:\\Users\\russo\\.nuget\\packages\\",
+        "outputPath": "C:\\localproject\\C#\\md_to_latex\\obj\\",
+>>>>>>> deb530effdc3b90f1803015b56394551b0599e2c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\avedd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+          "C:\\Users\\russo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> deb530effdc3b90f1803015b56394551b0599e2c
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +73,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+>>>>>>> deb530effdc3b90f1803015b56394551b0599e2c
         }
       }
     }
